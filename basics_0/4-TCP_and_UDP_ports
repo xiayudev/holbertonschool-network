@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# netstat => Display listening ports. The flags 'lptu' mean only listening ports, PID, TCP and UDP (ss)
+netstat -tulp
