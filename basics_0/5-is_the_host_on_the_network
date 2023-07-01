@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# On line 3 I am checking if no arguments was passed, if so, print message, else, use ping to verify that a network device is online 
+if ! [ "$1" ]
+then
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+	ping "$1"
+fi
